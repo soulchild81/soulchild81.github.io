@@ -1,59 +1,65 @@
-# Welcome to Jekyll!
-#
-
 # Site settings
-title: Spectral
-description: |
-  Another fine responsive
-  site template freebie
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
+title: Factory
+description: soulchild's dev Factory
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://soulchild81.github.io/" # the base hostname & protocol for your site
-social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  per_page: 5
+
+# Social
+facebook: facebook
+instagram: instagram
+github:  github
+
+#Additional Pages
+about: about
+contact: contact
+privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate-v2
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: soulchild81 #github username
+repo: soulchild81.github.io #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  https://soulchild81.github.io/
+source_url:  soulchild81.github.io #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
