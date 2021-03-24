@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hikari
 
 Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way. 
@@ -81,3 +82,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+# soulchild81.github.io
+>>>>>>> ef4087444ee1a589fb5fa8980b6da07ed8bbbc20
