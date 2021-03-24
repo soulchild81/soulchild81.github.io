@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.8'
+gem 'jekyll'
 
 group :jekyll_plugins do
-  gem 'jekyll-paginate', '~> 1.1'
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jemoji"
 end
