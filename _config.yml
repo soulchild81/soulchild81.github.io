@@ -11,8 +11,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Soulchild # add your name
 author-img: 54564644.jfif # add your photo
-about-author: Back-end 개발자로 일하고 있습니다. 좀 더 나아지고 싶은 사람입니다.  # add description
-social-twitter: # add your Twitter handle
+about-author: Back-end Developer # add description
+
 social-facebook: # add your Facebook handle
 social-github: soulchild81 # add your Github handle
 social-linkedin: # add your Linkedin handle
